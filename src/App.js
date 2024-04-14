@@ -1,9 +1,9 @@
 import {Switch, Route, Redirect} from 'react-router-dom'
 
-import LoginForm from './Components/LoginForm'
-import ProtectedRoute from './Components/ProtectedRoute'
-import Home from './Components/Home'
-import NotFound from './Components/NotFound'
+import LoginForm from './Component/LoginForm'
+import ProtectedRoute from './Component/ProtectedRoute'
+import Home from './Component/Home'
+import NotFound from './Component/NotFound'
 
 import './App.css'
 
