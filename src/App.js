@@ -1,17 +1,17 @@
 import {Switch, Route, Redirect} from 'react-router-dom'
 
-import LoginForm from './components/LoginForm'
-import ProtectedRoute from './components/ProtectedRoute'
-import Home from './components/Home'
-import NotFound from './components/NotFound'
+import LoginForm from './Components/LoginForm'
+import ProtectedRoute from './Components/ProtectedRoute'
+import Home from './Components/Home'
+import NotFound from './Components/NotFound'
 
 import './App.css'
 
 const App = () => (
   <Switch>
-    <Route exact path="/ebank/login" component={LoginForm} />
-    <ProtectedRoute exact path="/" component={Home} />
-    <Route path="/not-found" component={NotFound} />
+    <Route exact path="/e bank/login" Components={LoginForm} />
+    <ProtectedRoute exact path="/" Components={Home} />
+    <Route path="/not-found" Components={NotFound} />
     <Redirect to="/not-found" />
   </Switch>
 )
