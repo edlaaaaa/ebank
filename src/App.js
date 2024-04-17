@@ -9,9 +9,9 @@ import './App.css'
 
 const App = () => (
   <Switch>
-    <Route exact path="/e bank/login" Components={LoginForm} />
-
-    <Route path="/not-found" Components={NotFound} />
+    <Route exact path="/ebank/login" component={LoginForm} />
+    <Route exact path="/" component={Home} />
+    <Route path="/not-found" component={NotFound} />
     <Redirect to="/not-found" />
   </Switch>
 )
